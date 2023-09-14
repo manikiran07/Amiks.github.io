@@ -3,6 +3,8 @@ name: Jekyll site CI
 on:
   push:
     branches: [ "main" ]
+    paths-ignore: ["king"]
+    
   pull_request:
     branches: [ "main" ]
 
